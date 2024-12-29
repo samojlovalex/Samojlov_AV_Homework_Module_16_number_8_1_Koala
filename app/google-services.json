@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "270851542204",
+    "project_id": "module-16-number-8-new-koala",
+    "storage_bucket": "module-16-number-8-new-koala.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270851542204:android:98170c2e60d61b0c46d4b9",
+        "android_client_info": {
+          "package_name": "com.example.samojlov_av_homework_module_16_number_8_1_koala"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqQn43LVK12h7nO4bIE2rwGwSQyfNiiQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

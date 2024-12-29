@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_16_number_8_Koala</string>
+    <!--TODO Menu-->
+    <string name="toolbar_title">Контакты в Firebase</string>
+    <string name="toolbar_subtitle">Mod. 16 № 8</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="toast_exit">Приложение закрыто</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Contact Item -->
+    <string name="nameContactTV_hint">Имя</string>
+    <string name="phoneContactTV_hint">Телефон</string>
+    <string name="saveBT_text">Сохранить</string>
+    <!-- TODO: Input Form Layout -->
+    <string name="emailRegistrationET_hint">Электронная почта</string>
+    <string name="passwordRegistrationET_hint">Пароль</string>
+    <string name="confirmPasswordRegistrationET_hint">Пароль еще раз</string>
+    <string name="inputButtonBT_text">Entry</string>
+    <string name="textViewInputFormTV_text">Уже есть аккаунт</string>
+    <!-- TODO: Mail Fragment -->
+    <string name="textMailTV_hint">Текст письма</string>
+    <string name="email_text">\n</string>
+    <!-- TODO: Entry Fragment -->
+    <string name="entryFragment_button_text">Войти</string>
+    <string name="entryFragment_textView_text">Необходима регистрация</string>
+    <!-- TODO: SignUp Fragment -->
+    <string name="signUpFragment_button_text">Зарегистрироваться</string>
+    <string name="signUpUser_checkOne_toast">Все поля обязательны для ввода</string>
+    <string name="signUpUser_checkTwo_toast">Пароли не совпадают</string>
+    <string name="auth_signUp_true_toast">Успешно зарегистрирован</string>
+    <string name="auth_signUp_else_true_toast">Пользователь уже существует</string>
+    <string name="auth_signUp_else_false_toast">Регистрация не прошла</string>
+    <string name="auth_login_true_toast">Успешно вошёл в систему</string>
+    <string name="auth_login_false_toast">Не удалось войти в систему</string>
+    <!-- TODO: Delete Alert Dialog -->
+    <string name="delete_profile_enter_alter_dialog_button_deleteBT_Text">Удалить</string>
+    <string name="delete_alter_dialog_message_text">Вы действительно хотите удалить контакт?</string>
+    <string name="delete_alter_dialog_toast">%1$s удален</string>
+</resources>

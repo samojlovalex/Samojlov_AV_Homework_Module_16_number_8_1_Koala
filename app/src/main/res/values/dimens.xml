@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO: Overall dimensions-->
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="minHeight">48dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <!--TODO: CardView-->
+    <dimen name="margin_CardVieW">8dp</dimen>
+    <dimen name="cardCornerRadius">6dp</dimen>
+    <dimen name="cardElevation">6dp</dimen>
+    <!-- TODO: Mail Item -->
+    <dimen name="addressTV_textSize_20sp">20sp</dimen>
+    <dimen name="themesTV_textSize_15sp">15sp</dimen>
+    <!-- TODO: Input Form Layout -->
+    <dimen name="input_form_editText_textSize_20sp">20sp</dimen>
+    <dimen name="input_form_button_cornerRadius_16dp">16dp</dimen>
+    <dimen name="input_form_textView_textSize_15sp">15sp</dimen>
+    <!-- TODO: Mail Fragment -->
+    <dimen name="fragment_mail_address_textSize_20sp">20sp</dimen>
+    <dimen name="fragment_mail_themes_textSize_15sp">15sp</dimen>
+    <dimen name="fragment_mail_text_textSize_15sp">15sp</dimen>
+    <dimen name="input_form_Button_textSize_15sp">15sp</dimen>
+    <!-- TODO: Delete Alert Dialog -->
+    <dimen name="alter_dialog_margin">16dp</dimen>
+    <string name="delete_messageTV_Hint">Удаление</string>
+    <dimen name="delete_message_text_size">15sp</dimen>
+    <dimen name="alterDialog_cornerRadius_16dp">16dp</dimen>
+    <dimen name="alterDialog_strokeWidth_1dp">1dp</dimen>
+    <string name="alter_dialog_button_cancelBT_Text">Отмена</string>
+    <dimen name="alter_dialog_message_text_size">10sp</dimen>
+</resources>

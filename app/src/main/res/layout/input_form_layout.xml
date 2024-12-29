@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/containerInputFormCV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:cardElevation="@dimen/cardElevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding">
+
+            <EditText
+                android:id="@+id/emailRegistrationET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="emailAddress"
+                android:ems="10"
+                android:hint="@string/emailRegistrationET_hint"
+                android:inputType="textEmailAddress"
+                android:minHeight="@dimen/minHeight"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Grey"
+                android:textSize="@dimen/input_form_editText_textSize_20sp"></EditText>
+
+            <EditText
+                android:id="@+id/passwordRegistrationET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:autofillHints="password"
+                android:ems="10"
+                android:hint="@string/passwordRegistrationET_hint"
+                android:inputType="textPassword"
+                android:minHeight="@dimen/minHeight"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Grey"
+                android:textSize="@dimen/input_form_editText_textSize_20sp"></EditText>
+
+            <EditText
+                android:id="@+id/confirmPasswordRegistrationET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:autofillHints="password"
+                android:ems="10"
+                android:hint="@string/confirmPasswordRegistrationET_hint"
+                android:inputType="textPassword"
+                android:minHeight="@dimen/minHeight"
+                android:textColor="@color/Blue"
+                android:textColorHint="@color/Grey"
+                android:textSize="@dimen/input_form_editText_textSize_20sp"></EditText>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/inputButtonBT"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:elevation="@dimen/cardElevation"
+                android:text="@string/inputButtonBT_text"
+                android:textColor="@color/Blue"
+                android:textSize="@dimen/input_form_Button_textSize_15sp"
+                app:backgroundTintMode="src_over"
+                app:cornerRadius="@dimen/input_form_button_cornerRadius_16dp"
+                app:rippleColor="@color/Grey"
+                app:strokeColor="@color/white"
+                app:strokeWidth="1dp"
+                app:tint="@color/white"></com.google.android.material.button.MaterialButton>
+
+            <TextView
+                android:id="@+id/textViewInputFormTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:text="@string/textViewInputFormTV_text"
+                android:textAlignment="center"
+                android:textColor="@color/Blue"
+                android:textSize="@dimen/input_form_textView_textSize_15sp"></TextView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
